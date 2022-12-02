@@ -52,4 +52,22 @@
         app:layout_constraintTop_toBottomOf="@+id/play"
         app:srcCompat="@android:drawable/ic_media_pause" />
 
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <SeekBar
+        android:id="@+id/scrubber"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
