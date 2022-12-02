@@ -77,12 +77,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-            mpPlayer.pause();
+                mpPlayer.pause();
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-            mpPlayer.start();
+                mpPlayer.start();
             }
         });
 
