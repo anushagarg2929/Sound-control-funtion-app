@@ -67,21 +67,22 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 scrubber.setProgress(mpPlayer.getCurrentPosition());
             }
-        }, 0, 1000);
+        }, 0, 100);
         scrubber.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
-                Log.i("Scrubber value", Integer.toString(progress));
+               // Log.i("Scrubber value", Integer.toString(progress));
+                mpPlayer.seekTo(progress);
             }
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-
+            mpPlayer.pause();
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+            mpPlayer.start();
             }
         });
 
