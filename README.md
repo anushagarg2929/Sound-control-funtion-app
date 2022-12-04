@@ -14,9 +14,11 @@ Click on view Raw in this link to see the video of the working App.
 
 ## Screenshot
 Sreenshot of first version of app
-<a href="https://ibb.co/2Z3CC3D"><img src="https://i.ibb.co/2Z3CC3D/sound-demo-ss.png" alt="sound-demo-ss" border="0"></a>
+<br><a href="https://ibb.co/2Z3CC3D"><img src="https://i.ibb.co/2Z3CC3D/sound-demo-ss.png" alt="sound-demo-ss" border="0"></a><br>
+
+
 Screenshot of second version of app
-<a href="https://ibb.co/vdKYMmH"><img src="https://i.ibb.co/vdKYMmH/sound-demo-2.png" alt="sound-demo-2" border="0"></a>
+<br><a href="https://ibb.co/vdKYMmH"><img src="https://i.ibb.co/vdKYMmH/sound-demo-2.png" alt="sound-demo-2" border="0"></a>
 ## Code
 
 https://github.com/anushagarg2929/Sound-control-funtion-app/blob/master/app/src/main/java/com/example/sounddemo/MainActivity.java
